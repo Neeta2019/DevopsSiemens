@@ -19,6 +19,22 @@
 	</properties>
 	
 
+<!--this section is for hosting -->
+	<distributionManagement>
+		<repository>
+				<id>hosted</id>
+				<url>http://localhost:8081/repository/siemenshosted/</url>
+		</repository>
+	</distributionManagement>
+
+	<!-- is for donwloading -->
+	<repositories>
+		<repository>
+			<id>siemensintrarepo</id>
+			<url>http://localhost:8081/repository/siemensintrarepo/</url>
+		</repository>
+	</repositories>
+
 
 	<dependencies>
 		<dependency>
